@@ -15,7 +15,10 @@ function NavBar() {
         style={{ backgroundColor: "black", borderRadius: "10px", width: "90%" }}
       >
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggle-icon">|||</span>
+          <div className="toggle-container">
+            <span className="navbar-toggle-icon">|||</span>
+            <span className="toggle-title">Daniel Burford</span>
+          </div>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

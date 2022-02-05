@@ -7,11 +7,19 @@
 .nav-links:hover{
   color: var(--pink);
 }
+.toggle-container{
+  display: flex;
+  flex-direction: row;
+}
 .navbar-toggle-icon{
   display: block;
-  color: white;
+  color: var(--pink);
   transform: rotate(-90deg);
   letter-spacing: 2px;
+}
+.toggle-title{
+  color: var(--pink);
+  margin-left: 15px;
 }
 @media (max-width: 480px) {
   .nav-links{

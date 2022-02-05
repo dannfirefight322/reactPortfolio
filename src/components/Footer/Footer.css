@@ -10,3 +10,11 @@ footer{
 .footer-content{
     font-size: 25px;
 }
+
+@media (max-width: 480px) {
+  .footer-content{
+    font-size: 16px;
+  }
+  }
+
+
