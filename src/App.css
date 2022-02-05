@@ -1,3 +1,10 @@
-*{
-    background-color: green;
+
+:root {
+    --mainColor: #000000;
+    --lightBlue: #5800FF;
+    --pink: #E900FF;
+    --orange: #FFC600;
+}
+body{
+        background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));
 }
