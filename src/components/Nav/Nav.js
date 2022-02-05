@@ -3,16 +3,20 @@ import { NavLink } from "react-router-dom";
 import "../../App.css";
 import "./Nav.css";
 import { Nav, Navbar, Container, Button, Modal } from "react-bootstrap";
+import "bootstrap/js/src/collapse.js";
 function NavBar() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="container">
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar expand="lg">
+      <Container
+        style={{ backgroundColor: "black", borderRadius: "10px", width: "90%" }}
+      >
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <span className="navbar-toggle-icon">|||</span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={NavLink} to="/">
@@ -53,7 +57,6 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
   );
 }
 

@@ -1,7 +1,21 @@
-
 .nav-links{
   color: var(--orange);
   margin-left: 25px;
   margin-right: 25px;
   font-size: 35px;
 }
+.nav-links:hover{
+  color: var(--pink);
+}
+.navbar-toggle-icon{
+  display: block;
+  color: white;
+  transform: rotate(-90deg);
+  letter-spacing: 2px;
+}
+@media (max-width: 480px) {
+  .nav-links{
+    font-size: 16px;
+  }
+  }
+
