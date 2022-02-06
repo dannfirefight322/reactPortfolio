@@ -21,6 +21,28 @@
   color: var(--pink);
   margin-left: 15px;
 }
+.modal-title{
+  color: var(--orange);
+}
+.modal-body{
+  background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));
+}
+.modal-button{
+  background-color: var(--mainColor);
+  color: var(--pink);
+}
+.links{
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--orange);
+
+}
+.links-list{
+  list-style: none;
+}
+.icon{
+  height: 25px;
+}
 @media (max-width: 480px) {
   .nav-links{
     font-size: 16px;
