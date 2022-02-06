@@ -1,0 +1,38 @@
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.about-me-image{
+    margin-left: 160px;
+    height: 500px;
+    border-radius: 50%;
+    justify-content: center;
+}
+.about-me-title{
+    color: var(--orange);
+    margin-left: 270px;
+}
+.about-me{
+    width: 70%;
+    background-color: var(--mainColor);
+    color: var(--orange);
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 25px;
+}
+.about-me-badges{
+    text-align: center;
+    color: var(--orange);
+}
+.pill{
+    background-color: var(--mainColor);
+}
+.badges-container{
+    display: flex;
+    justify-content: center;
+}
+.badge-container{
+    display: flex;
+    flex-direction: row;
+}
