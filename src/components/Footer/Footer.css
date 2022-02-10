@@ -6,6 +6,7 @@ footer{
   background-color: var(--mainColor);
   color: var(--pink);
   text-align: center;
+  z-index: 1;
 }
 .footer-content{
     font-size: 25px;

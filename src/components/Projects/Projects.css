@@ -1,0 +1,17 @@
+.d-block{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-radius: 5px;
+}
+.carousel-title, .carousel-description{
+    color: var(--orange)
+}
+.carousel-description{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.links{
+    margin: 15px;
+}

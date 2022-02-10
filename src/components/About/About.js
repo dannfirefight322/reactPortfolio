@@ -32,22 +32,22 @@ function About() {
         <div className="badge-container">
           <div className="badges-section-1">
             <h1>
-              <Badge pill bg="success">
+              <Badge pill bg="success" style={{"margin": "15px"}}>
                 HTML
               </Badge>
             </h1>
             <h1>
-              <Badge pill bg="success">
+              <Badge pill bg="success" style={{"margin": "15px"}} >
                 CSS
               </Badge>
             </h1>
             <h1>
-              <Badge pill bg="success">
+              <Badge pill bg="success" style={{"margin": "15px"}}>
                 JAVASCRIPT
               </Badge>
             </h1>
             <h1>
-              <Badge pill bg="success">
+              <Badge pill bg="success" style={{"margin": "15px"}}>
                 BOOTSTRAP
               </Badge>
             </h1>
@@ -55,27 +55,49 @@ function About() {
         </div>
         <div className="badges-section-2">
           <h1>
-            <Badge pill bg="success">
-              HTML
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              REACT
             </Badge>
           </h1>
           <h1>
-            <Badge pill bg="success">
-              CSS
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              MONGOOSE
             </Badge>
           </h1>
           <h1>
-            <Badge pill bg="success">
-              JAVASCRIPT
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              NODE
             </Badge>
           </h1>
           <h1>
-            <Badge pill bg="success">
-              BOOTSTRAP
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              MYSQL
             </Badge>
           </h1>
         </div>
-      </div>
+      <div className="badges-section-3">
+          <h1>
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              EXPRESS
+            </Badge>
+          </h1>
+          <h1>
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              SASS
+            </Badge>
+          </h1>
+          <h1>
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              MATERIALIZE
+            </Badge>
+          </h1>
+          <h1>
+            <Badge pill bg="success" style={{"margin": "15px"}}>
+              JQUERY
+            </Badge>
+          </h1>
+        </div>
+    </div>
     </div>
   );
 }

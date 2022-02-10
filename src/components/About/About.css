@@ -55,6 +55,7 @@
     }
     .about-me-title{
         text-align: center;
+        margin-top: 15px;
     }
     .about-me{
         width: 90%;
@@ -62,5 +63,8 @@
         margin-right: auto;
         font-size: 16px;
         text-align: center;
+    }
+    .badges-container{
+        flex-direction: column;
     }
     }
