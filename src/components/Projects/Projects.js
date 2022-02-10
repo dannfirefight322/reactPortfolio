@@ -1,12 +1,14 @@
 import React from "react";
 import "../../App.css";
 import "./Projects.css";
-import { Carousel  } from 'react-bootstrap';
+import { Carousel, Card  } from 'react-bootstrap';
 import emswift from "../../images/projects/emswift.png";
 import hand from "../../images/projects/hand.jfif";
 import dayPlanner from "../../images/projects/dayPlanner.png"
 function Projects() {
   return (
+    <div>
+    <div className="desktop">
     <Carousel fade variant="dark">
   <Carousel.Item>
     <img
@@ -58,7 +60,23 @@ function Projects() {
   </Carousel.Item>
 
 </Carousel>
-    
+</div>
+     <div className="mobile-only">
+     <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src={emswift} />
+  <Card.Body>
+    <Card.Title>EMSwift</Card.Title>
+    <Card.Text>
+    This is a concept for an easy to use PCR(Patient Care Report) that myself and my group came up with. It utilizes a mix of HTML, CSS and CSS frameworks, and JS and Third party API's.
+    </Card.Text>
+    <div className="links">
+      <a className="links" href="https://emswift.com/">Deployed</a>
+      <a className="links" href="https://github.com/spaceboundbear/Project1-UTSA-MF-DB-BT">Repository</a>
+      </div>
+  </Card.Body>
+</Card>
+     </div>
+     </div>
   );
 }
 
