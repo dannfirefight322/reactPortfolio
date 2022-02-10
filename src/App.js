@@ -11,14 +11,14 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className="App">
-      <Nav />
-      <Route exact path ="/" component={Home} />
-      <Route exact path ="/about" component={About} />
-      <Route exact path ="/projects" component={Projects} />
-      <Route exact path ="/certifications" component={Certifications} />
-      <Footer />
-    </div>
+      <div className="App">
+        <Nav />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/certifications" component={Certifications} />
+        <Footer />
+      </div>
     </Router>
   );
 }

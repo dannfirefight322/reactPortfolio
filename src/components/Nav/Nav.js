@@ -41,9 +41,6 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/certifications">
               <span className="nav-links">Certifications</span>
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/about">
-              <span className="nav-links">Resume</span>
-            </Nav.Link>
             <Nav.Link variant="primary" onClick={handleShow}>
               <span className="nav-links">Contact Me</span>
             </Nav.Link>
@@ -54,25 +51,37 @@ function NavBar() {
                 </Modal.Title>
                 <ul className="modal-links">
                   <li className="links-list">
-                    <a className="links" href="https://github.com/dannfirefight322">
+                    <a
+                      className="links"
+                      href="https://github.com/dannfirefight322"
+                    >
                       <img className="icon" src={github} alt="..." />
                       -Github
                     </a>
                   </li>
                   <li className="links-list">
-                    <a className="links" href="https://www.linkedin.com/in/daniel-burford-209b5b20a/">
+                    <a
+                      className="links"
+                      href="https://www.linkedin.com/in/daniel-burford-209b5b20a/"
+                    >
                       <img className="icon" src={linkedin} alt="..." />
                       -Linkedin
                     </a>
                   </li>
                   <li className="links-list">
-                    <a className="links" href="https://www.instagram.com/texas.photography94/">
+                    <a
+                      className="links"
+                      href="https://www.instagram.com/texas.photography94/"
+                    >
                       <img className="icon" src={instagram} alt="..." />
                       -Instagram
                     </a>
                   </li>
                   <li className="links-list">
-                    <a className="links" href="https://twitter.com/texasphotograp7">
+                    <a
+                      className="links"
+                      href="https://twitter.com/texasphotograp7"
+                    >
                       <img className="icon" src={twitter} alt="..." />
                       -Twitter
                     </a>
@@ -89,12 +98,25 @@ function NavBar() {
                       -210-823-3196
                     </a>
                   </li>
+                  <li className="links-list">
+                    <a
+                      className="links"
+                      href="https://daniel-burford.com/Daniel_Burford.pdf"
+                    >
+                      <img className="icon" src={phone} alt="..." />
+                      -Resume
+                    </a>
+                  </li>
                 </ul>
               </Modal.Body>
-                <Button className="modal-button" variant="secondary" onClick={handleClose}>
-                  Close
-                </Button>
-              </Modal>
+              <Button
+                className="modal-button"
+                variant="secondary"
+                onClick={handleClose}
+              >
+                Close
+              </Button>
+            </Modal>
           </Nav>
         </Navbar.Collapse>
       </Container>
