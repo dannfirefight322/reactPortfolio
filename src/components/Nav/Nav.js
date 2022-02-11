@@ -41,6 +41,7 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/certifications">
               <span className="nav-links">Certifications</span>
             </Nav.Link>
+            <h1><a className="resumelink"href="https://daniel-burford.com/Daniel_Burford.pdf">Resume</a></h1>
             <Nav.Link variant="primary" onClick={handleShow}>
               <span className="nav-links">Contact Me</span>
             </Nav.Link>
@@ -96,15 +97,6 @@ function NavBar() {
                     <a className="links" href="#">
                       <img className="icon" src={phone} alt="..." />
                       -210-823-3196
-                    </a>
-                  </li>
-                  <li className="links-list">
-                    <a
-                      className="links"
-                      href="https://daniel-burford.com/Daniel_Burford.pdf"
-                    >
-                      <img className="icon" src={phone} alt="..." />
-                      -Resume
                     </a>
                   </li>
                 </ul>
