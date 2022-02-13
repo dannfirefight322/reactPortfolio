@@ -1,9 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&display=swap');
 :root {
     --mainColor: #000000;
     --lightBlue: #5800FF;
     --pink: #E900FF;
     --orange: #FFC600;
+    --mainFont: 'Alegreya Sans', sans-serif;
+    --bold: 'Alegreya', serif;
 }
 body{
         background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "../../App.css";
 import "./Projects.css";
@@ -33,12 +34,17 @@ function Projects() {
                 HTML, CSS and CSS frameworks, and JS and Third party API's.
               </p>
               <div className="links">
-                <a className="links" href="https://emswift.com/">
+                <a
+                  className="links"
+                  href="https://emswift.com/"
+                  target="_blank"
+                >
                   Deployed
                 </a>
                 <a
                   className="links"
                   href="https://github.com/spaceboundbear/Project1-UTSA-MF-DB-BT"
+                  target="_blank"
                 >
                   Repository
                 </a>
@@ -62,12 +68,17 @@ function Projects() {
                 photos that I've taken from various places around the U.S.
               </p>
               <div className="links">
-                <a className="links" href="https://danielsphotography.me/">
+                <a
+                  className="links"
+                  href="https://danielsphotography.me/"
+                  target="_blank"
+                >
                   Deployed
                 </a>
                 <a
                   className="links"
                   href="https://github.com/dannfirefight322/Mobile"
+                  target="_blank"
                 >
                   Repository
                 </a>
@@ -96,12 +107,14 @@ function Projects() {
                 <a
                   className="links"
                   href="https://dannfirefight322.github.io/DayPlanner/"
+                  target="_blank"
                 >
                   Deployed
                 </a>
                 <a
                   className="links"
                   href="https://github.com/dannfirefight322/DayPlanner"
+                  target="_blank"
                 >
                   Repository
                 </a>
@@ -133,12 +146,14 @@ function Projects() {
                 <a
                   className="links"
                   href="https://dannfirefight322.github.io/password-generator/"
+                  target="_blank"
                 >
                   Deployed
                 </a>
                 <a
                   className="links"
                   href="https://github.com/dannfirefight322/password-generator"
+                  target="_blank"
                 >
                   Repository
                 </a>
@@ -170,12 +185,14 @@ function Projects() {
                 <a
                   className="links"
                   href="https://dannfirefight322.github.io/CSS-code-snippet/"
+                  target="_blank"
                 >
                   Deployed
                 </a>
                 <a
                   className="links"
                   href="https://github.com/dannfirefight322/CSS-code-snippet"
+                  target="_blank"
                 >
                   Repository
                 </a>
@@ -195,12 +212,13 @@ function Projects() {
               and CSS frameworks, and JS and Third party API's.
             </Card.Text>
             <div className="links">
-              <a className="links" href="https://emswift.com/">
+              <a className="links" href="https://emswift.com/" target="_blank">
                 Deployed
               </a>
               <a
                 className="links"
                 href="https://github.com/spaceboundbear/Project1-UTSA-MF-DB-BT"
+                target="_blank"
               >
                 Repository
               </a>

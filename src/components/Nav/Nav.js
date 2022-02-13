@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -41,13 +42,21 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/certifications">
               <span className="nav-links">Certifications</span>
             </Nav.Link>
-            <h1><a className="resumelink"href="https://daniel-burford.com/Daniel_Burford.pdf">Resume</a></h1>
+            <h1>
+              <a
+                className="resumelink"
+                href="https://daniel-burford.com/Daniel_Burford.pdf"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </h1>
             <Nav.Link variant="primary" onClick={handleShow}>
               <span className="nav-links">Contact Me</span>
             </Nav.Link>
             <Modal show={show} onHide={handleClose}>
               <Modal.Body className="modal-body">
-                <Modal.Title className="modal-title">
+                <Modal.Title className="modal-title" style={{"fontSize": "35px"}}>
                   Contact Information
                 </Modal.Title>
                 <ul className="modal-links">
@@ -55,48 +64,52 @@ function NavBar() {
                     <a
                       className="links"
                       href="https://github.com/dannfirefight322"
+                      target="_blank"
                     >
                       <img className="icon" src={github} alt="..." />
-                      -Github
+                      - Github
                     </a>
                   </li>
                   <li className="links-list">
                     <a
                       className="links"
                       href="https://www.linkedin.com/in/daniel-burford-209b5b20a/"
+                      target="_blank"
                     >
                       <img className="icon" src={linkedin} alt="..." />
-                      -Linkedin
+                      - Linkedin
                     </a>
                   </li>
                   <li className="links-list">
                     <a
                       className="links"
                       href="https://www.instagram.com/texas.photography94/"
+                      target="_blank"
                     >
                       <img className="icon" src={instagram} alt="..." />
-                      -Instagram
+                      - Instagram
                     </a>
                   </li>
                   <li className="links-list">
                     <a
                       className="links"
                       href="https://twitter.com/texasphotograp7"
+                      target="_blank"
                     >
                       <img className="icon" src={twitter} alt="..." />
-                      -Twitter
+                      - Twitter
                     </a>
                   </li>
                   <li className="links-list">
                     <a className="links" href="#">
                       <img className="icon" src={gmail} alt="..." />
-                      -amery.bur410@gmail
+                      - amery.bur410@gmail
                     </a>
                   </li>
                   <li className="links-list">
                     <a className="links" href="#">
                       <img className="icon" src={phone} alt="..." />
-                      -210-823-3196
+                      - 210-823-3196
                     </a>
                   </li>
                 </ul>
