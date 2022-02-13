@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import "./Home.css";
 import danielburford from '../../images/danielburford2.gif';
-import laptop from "../../images/laptop-coding-terminal.webp";
+import laptop from "../../images/danielburford_mobile.gif";
 function Home(){
     return(
         <div>
