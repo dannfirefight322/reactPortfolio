@@ -20,12 +20,12 @@ function NavBar() {
   return (
     <Navbar expand="lg">
       <Container
-        style={{ backgroundColor: "black", borderRadius: "10px", width: "90%" }}
+        style={{ width: "90%" }}
       >
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <div className="toggle-container">
             <span className="navbar-toggle-icon">|||</span>
-            <span className="toggle-title">Daniel Burford</span>
+            <span className="toggle-title">Navigator</span>
           </div>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">

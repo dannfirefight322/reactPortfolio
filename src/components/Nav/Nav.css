@@ -1,19 +1,33 @@
 .nav-links, .resumelink{
   color: var(--orange);
-  margin-left: 44px;
-  margin-right: 44px;
-  font-size: 31px;
-  font-weight: 700;
+  margin-left: 37px;
+  margin-right: 37px;
+  font-size: 25px;
   font-family: var(--bold);
+  border-radius: 50px;
+  background-color: var(--mainColor);
+  padding: 15px 15px;
+  display: inline-block;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 6px 3px 10px 2px var(--orange);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
 }
-.resumelink{
+  .resumelink{
   text-decoration: none;
+  position: relative;
+  top: 9px;
+  height: 89%;
 }
 .nav-links:hover{
   color: var(--pink);
+   box-shadow: inset 400px 0 0 0 var(--mainColor);
 }
 .resumelink:hover{
   color: var(--pink);
+  box-shadow: inset 400px 0 0 0 var(--mainColor);
 }
 .toggle-container{
   display: flex;
@@ -21,12 +35,12 @@
 }
 .navbar-toggle-icon{
   display: block;
-  color: var(--pink);
+  color: var(--mainColor);
   transform: rotate(-90deg);
   letter-spacing: 2px;
 }
 .toggle-title{
-  color: var(--pink);
+  color: var(--mainColor);
   margin-left: 15px;
 }
 .modal-title{

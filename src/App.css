@@ -9,5 +9,5 @@
     --bold: 'Alegreya', serif;
 }
 body{
-        background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));
+        background-image: linear-gradient(to top left, var(--mainColor), var(--pink));
 }
