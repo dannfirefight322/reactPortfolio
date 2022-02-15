@@ -18,10 +18,9 @@ function NavBar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
+    <div>
     <Navbar expand="lg">
-      <Container
-        style={{ width: "90%" }}
-      >
+      <Container style={{ width: "90%"}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <div className="toggle-container">
             <span className="navbar-toggle-icon">|||</span>
@@ -56,7 +55,10 @@ function NavBar() {
             </Nav.Link>
             <Modal show={show} onHide={handleClose}>
               <Modal.Body className="modal-body">
-                <Modal.Title className="modal-title" style={{"fontSize": "35px"}}>
+                <Modal.Title
+                  className="modal-title"
+                  style={{ fontSize: "35px" }}
+                >
                   Contact Information
                 </Modal.Title>
                 <ul className="modal-links">
@@ -66,8 +68,7 @@ function NavBar() {
                       href="https://github.com/dannfirefight322"
                       target="_blank"
                     >
-                      <img className="icon" src={github} alt="..." />
-                      - Github
+                      <img className="icon" src={github} alt="..." />- Github
                     </a>
                   </li>
                   <li className="links-list">
@@ -76,8 +77,8 @@ function NavBar() {
                       href="https://www.linkedin.com/in/daniel-burford-209b5b20a/"
                       target="_blank"
                     >
-                      <img className="icon" src={linkedin} alt="..." />
-                      - Linkedin
+                      <img className="icon" src={linkedin} alt="..." />-
+                      Linkedin
                     </a>
                   </li>
                   <li className="links-list">
@@ -86,8 +87,8 @@ function NavBar() {
                       href="https://www.instagram.com/texas.photography94/"
                       target="_blank"
                     >
-                      <img className="icon" src={instagram} alt="..." />
-                      - Instagram
+                      <img className="icon" src={instagram} alt="..." />-
+                      Instagram
                     </a>
                   </li>
                   <li className="links-list">
@@ -96,20 +97,19 @@ function NavBar() {
                       href="https://twitter.com/texasphotograp7"
                       target="_blank"
                     >
-                      <img className="icon" src={twitter} alt="..." />
-                      - Twitter
+                      <img className="icon" src={twitter} alt="..." />- Twitter
                     </a>
                   </li>
                   <li className="links-list">
                     <a className="links" href="#">
-                      <img className="icon" src={gmail} alt="..." />
-                      - amery.bur410@gmail
+                      <img className="icon" src={gmail} alt="..." />-
+                      amery.bur410@gmail
                     </a>
                   </li>
                   <li className="links-list">
                     <a className="links" href="#">
-                      <img className="icon" src={phone} alt="..." />
-                      - 210-823-3196
+                      <img className="icon" src={phone} alt="..." />-
+                      210-823-3196
                     </a>
                   </li>
                 </ul>
@@ -124,8 +124,10 @@ function NavBar() {
             </Modal>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </Container>  
     </Navbar>
+    <hr />
+  </div>
   );
 }
 
