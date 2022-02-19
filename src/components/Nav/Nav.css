@@ -50,10 +50,6 @@
 .modal-body{
   background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));
 }
-.modal-button{
-  background-color: var(--mainColor);
-  color: var(--pink);
-}
 .links{
   text-decoration: none;
   font-size: 25px;
@@ -65,6 +61,8 @@
 }
 .links-list{
   list-style: none;
+  text-align: center;
+  margin-top: 15px;
 }
 .icon{
   height: 25px;

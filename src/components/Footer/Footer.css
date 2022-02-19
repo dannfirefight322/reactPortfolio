@@ -10,6 +10,7 @@ footer{
 }
 .footer-content{
     font-size: 25px;
+    font-family: var(--bold);
 }
 
 @media (max-width: 480px) {
