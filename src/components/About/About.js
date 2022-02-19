@@ -27,6 +27,7 @@ function About() {
           </p>
         </div>
       </div>
+      <hr className="break" />
       <h1 className="about-me-badges">Languages</h1>
       <div className="badges-container">
         <div className="badge-container">

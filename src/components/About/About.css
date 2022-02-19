@@ -16,6 +16,7 @@
 .about-me-title{
     color: var(--orange);
     margin-left: 20px;
+    font-family: var(--bold);
 }
 .about-me{
     width: 80%;
@@ -23,12 +24,15 @@
     color: var(--orange);
     margin-left: 15px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 55px;
+    font-family: var(--mainFont);
     border-radius: 15px;
 }
 .about-me-badges{
     text-align: center;
     color: var(--orange);
+    font-family: var(--bold);
 }
 .pill{
     background-color: var(--mainColor);

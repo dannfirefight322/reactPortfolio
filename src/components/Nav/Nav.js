@@ -126,7 +126,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>  
     </Navbar>
-    <hr />
+    <hr className="break"/>
   </div>
   );
 }

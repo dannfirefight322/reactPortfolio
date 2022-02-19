@@ -13,6 +13,7 @@
     color: var(--orange);
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: var(--bold);
 }
 @media screen and (max-width: 480px) {
   .cert{

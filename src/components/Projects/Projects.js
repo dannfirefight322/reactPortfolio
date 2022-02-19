@@ -12,6 +12,7 @@ function Projects() {
   return (
     <div>
       <div className="desktop">
+        <h1 className="projectsTitle">Projects</h1>
         <Carousel fade variant="dark">
           <Carousel.Item>
             <img
