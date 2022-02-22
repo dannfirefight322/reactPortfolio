@@ -15,7 +15,7 @@ function About() {
           <h1 className="about-me-title">About Me</h1>
           <p className="about-me">
             Hello my name is Daniel Burford, a recently engaged web development
-            and software engineenering student. I am studying web developing and
+            and software engineenering graduate. I am studying web developing and
             software engineering in UTSA's coding bootcamp. My background is
             predominantly in first responding I've been in the field for almost
             10 years, With my training being focused in firefighting and EMS
