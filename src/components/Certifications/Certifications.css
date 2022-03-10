@@ -15,8 +15,13 @@
     margin-bottom: 15px;
     font-family: var(--bold);
 }
+.cert-utsa{
+    margin: 5px;
+    border-radius: 15px;  
+}
 @media screen and (max-width: 480px) {
-  .cert{
+  .cert, .cert-utsa{
       width: 90%;
   }
+
 }
